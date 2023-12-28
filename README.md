@@ -1,5 +1,7 @@
 # unused-blocks
 
+Based on the this Node.js script: https://www.storyblok.com/faq/how-to-get-all-unused-components
+
 To install dependencies:
 
 ```bash
