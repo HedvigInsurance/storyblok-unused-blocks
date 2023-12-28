@@ -1,0 +1,20 @@
+{
+  "name": "unused-blocks",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1",
+    "@types/bun": "1.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@storyblok/js": "3.0.0",
+    "storyblok-js-client": "6.4.1"
+  },
+  "scripts": {
+    "start": "bun run index.ts",
+    "format": "npx @biomejs/biome format index.ts --write"
+  }
+}
